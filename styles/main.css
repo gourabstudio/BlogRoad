@@ -1,0 +1,91 @@
+.greeting-message{
+    background-color: #d7ecd9;
+    text-align: center;
+    color: #333333;
+    padding: 5px 0;
+}
+.profile-picture{
+    height: 250px;
+    border-radius: 125px;
+    margin-bottom: 20px;
+}
+.profile-picture-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.description-section{
+    font-family: quicksand,roboto,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.socials-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.instagram-icon{
+    height: 50px;
+    margin: 0px 15px;
+}
+.facebook-icon{
+    height: 50px;
+    margin: 0px 15px;
+}
+.youtube-icon{
+ height: 50px;
+ margin: 0px 15px;
+}
+.content-section{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1000px){
+    .content-section{
+        flex-wrap: wrap;
+    }
+}
+.author-section{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.author-picture{
+    height: 80px;
+    border-radius: 40px;
+}
+.content-info{
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.title{
+    font-family: quicksand,roboto,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.timestamp{
+    color: rgb(136, 136, 136);
+}
+.latest-content{
+    flex: 1;
+    font-size: 18px;
+    background-color: rgb(245, 245, 245);
+    padding: 15px 15px 15px 50px;
+    border-radius: 5px;
+}
+@media (max-width: 600px){
+    .latest-content{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/*Footer Style*/
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
